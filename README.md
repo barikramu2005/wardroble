@@ -24,110 +24,53 @@ Clothes lying unused for long periods
 My Wardrobe solves this by mirroring how people actually handle clothes in daily life.
 
 ✨ Features
-👔 Wardrobe Management
 
-Add clothes with:
+Wardrobe Management
 
-Photo
+Add clothes with photo, type (T-shirt, Shirt, Jeans, Trousers, Kurta), category, and free-text color/pattern
 
-Type (T-shirt, Shirt, Jeans, Trousers, Kurta)
+View clothes grouped by type with total counts
 
-Category (Daily / Casual / Party)
+Cloth State Tracking
 
-Free-text color & pattern description
+Automatic states: READY → NEED WASH → NEED IRON
 
-View clothes grouped by type
+Usage-based logic (shirts after 1 use, jeans after multiple uses)
 
-See total count per cloth type
+Manual state override supported
 
-🔄 Cloth State Lifecycle
-
-Each cloth automatically moves through:
-
-READY
-
-NEED WASH
-
-NEED IRON
-
-Usage-based logic:
-
-Shirts / T-shirts → wash after 1 use
-
-Jeans / Trousers → wash after multiple uses
-
-Manual state override is supported.
-
-🧺 Laundry Mode
+Laundry Mode
 
 View all clothes needing wash or ironing
 
-Select multiple clothes
+Multi-select clothes and apply batch actions
 
-Batch actions:
+Smart Outfit Recommendation (Offline)
 
-Mark as washed
+Pick any cloth (top or bottom) and an occasion (Daily / Casual / Party)
 
-Mark as ironed
+Get matching outfit suggestions
 
-👕 Outfit Recommendation
+“Try another” option for alternatives
 
-Pick any cloth (top or bottom)
+Preference learning using “I like this 👍”
 
-Choose an occasion:
+No AI, no internet — purely logic-based
 
-Daily
+Storage Tracking
 
-Casual
-
-Party
-
-App suggests a matching outfit
-
-“Try another” option for alternative suggestions
-
-Preference learning:
-
-Tap “I like this 👍”
-
-App remembers your choices and improves future recommendations
-
-No AI, no internet — just practical logic + personal preference learning.
-
-📦 Storage Location Tracking
-
-Track where clean clothes are stored:
-
-Suitcase
-
-Travel Bag
-
-Other
+Track where clean clothes are stored (Cupboard, Suitcase, Travel Bag, Jhola, etc.)
 
 Only READY clothes can be stored
 
-Storage is cleared automatically when clothes become dirty
+Automatic removal from storage when clothes become dirty
 
-Wardrobe shows container-wise clothing counts
+Container-wise clothing counts
 
-📊 Insights & Reminders (Planned / In Progress)
+Insights & Reminders (In Progress)
 
 Most frequently worn clothes
 
-Clothes not used for long periods
+Clothes unused for long periods
 
-Gentle reminders to rotate unused clothes
-
-🏗️ Tech Stack
-
-Flutter (UI & logic)
-
-Dart
-
-Hive (local persistent storage)
-
-Image Picker (camera integration)
-
-URL Launcher (external links)
-
-The app works completely offline.
+Gentle rotation reminders
